@@ -57,11 +57,6 @@ class LunchRoulette
   def add_emp(arr = [])
     arr << @emps.pop
   end
-
-  def print_out
-    puts groups.inspect
-  end
-
 end
 
 lr = LunchRoulette.new
