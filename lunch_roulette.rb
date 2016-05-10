@@ -21,23 +21,23 @@ class LunchRoulette
 
   def create_groups
     while @execs.length > 0 || @emps.length > 0 do
-      create_another_group
+     create_another_group
     end
     @groups
   end
 
   def create_another_group
     if @execs.length > 0
-      build_group_with_one_exec
+     build_group_with_one_exec
     else
-      build_group_of_only_employees
+     build_group_of_only_employees
     end
   end
 
   def build_group_of_only_employees
     arr = []
     until arr.length == 4 do
-      add_emp(arr)
+     add_emp(arr)
     end
     @groups << arr
   end
@@ -45,7 +45,7 @@ class LunchRoulette
   def build_group_with_one_exec(arr = [])
     add_exec(arr)
     until arr.length == 4 do
-      add_emp(arr)
+     add_emp(arr)
     end
     @groups << arr
   end
