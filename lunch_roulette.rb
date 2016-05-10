@@ -1,8 +1,7 @@
 require 'pry'
 
 class LunchRoulette
-  DENVER_EMPLOYEES = [
-    
+  DENVER_EMPLOYEES = [  
     "Alison Schreiber", "Allison Obenchain", "Ashley Bailey", "Bao Nguyen", "Ben Howell", "Brian Eldredge", "Cindy Wernsman", "Dana Goodson", "David Candler", "David Oliver",
     "David Tetley", "Deidre Hodges", "Dominic LeVasseur", "Dylan Volz", "Emily Dowdle", "Ian Retzlaff", "Jake O'Brien", "James Billings", "Jason Deleeuw",
     "Jeff Hyde", "Jeremy Scott", "Joseph Weizenecker", "Kenan Degirmenci", "Laura Roberts", "Lauren Culler", "Lizzi Kongsvik", "Loren Nozot", "Maureen Dempsey", "Mike Justus",

@@ -2,7 +2,6 @@ require 'pry'
 
 class LunchRoulette
   DENVER_EMPLOYEES = [
-    
     "Audrey Hepburn",
     "Sean Connery",
     "Daniel Craig",
@@ -20,7 +19,6 @@ class LunchRoulette
     "Victoria Beckham",
     "Tom Cruise",
     "Jessica Ennis"
-
   ]
 
   EXECUTIVES_AND_MANAGERS = [
